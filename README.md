@@ -51,6 +51,10 @@ python manage.py runserver
 ```
 The application should be running at `http://127.0.0.1:8000/`.
 
+### 8. Running the Frontend
+The front-end application is integrated with Django and serves static files, running on http://127.0.0.1:8000/. Ensure your React build is correctly placed inside the Django static directory.
+
+
 ## Troubleshooting
 If you encounter issues, check:
 - That virtual environment is activated.
